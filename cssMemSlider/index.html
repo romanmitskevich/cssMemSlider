@@ -6,48 +6,56 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./style.css">
-   <link rel="icon" href="./favicon.ico">
+   <link rel="icon" href="./assets/img/favicon.ico">
    <title>cssMemSlider</title>
 </head>
 
 <body>
    <div class="wrapper">
+      <input type="radio" name="radio-button" id="first-radio" checked>
+      <input type="radio" name="radio-button" id="second-radio">
+      <input type="radio" name="radio-button" id="third-radio">
+      <input type="radio" name="radio-button" id="fourth-radio">
+
       <div class="slider-container">
-         <input type="radio" name="radio-button" id="first-radio" checked>
-         <input type="radio" name="radio-button" id="second-radio">
-         <input type="radio" name="radio-button" id="third-radio">
-         <input type="radio" name="radio-button" id="fourth-radio">
-
          <div class="slide">
             <img src="./assets/img/first_mem.png" alt="Slide mem">
          </div>
 
          <div class="slide">
-            <img src="./assets/img/first_mem.png" alt="Slide mem">
+            <img src="./assets/img/second_mem.png" alt="Slide mem">
          </div>
 
          <div class="slide">
-            <img src="./assets/img/first_mem.png" alt="Slide mem">
+            <img src="./assets/img/third_mem.png" alt="Slide mem">
          </div>
 
          <div class="slide">
-            <img src="./assets/img/first_mem.png" alt="Slide mem">
+            <img src="./assets/img/fourth_mem.png" alt="Slide mem">
          </div>
       </div>
 
       <div class="navigation-container">
          <div class="navigation-text">
-            <p class="text">Безумно можно быть первым!!!!!!!!</p>
-            <p class="text"></p>
-            <p class="text"></p>
-            <p class="text"></p>
+            <p class="text">Я: надо сделать cssMemSlider<br>Я спустя минуту:</p>
+            <p class="text">Что снится ночью, когда ложишься спать голодным</p>
+            <p class="text">Когда решил полежать 10 минут и уснул на 4 часа</p>
+            <p class="text">Одуванчик, когда на него дунули</p>
          </div>
 
          <div class="slider-navigation">
-            <label class="radio-label" for="first-radio"></label>
-            <label class="radio-label" for="second-radio"></label>
-            <label class="radio-label" for="third-radio"></label>
-            <label class="radio-label" for="fourth-radio"></label>
+            <label class="radio-label" for="first-radio">
+               <div></div>
+            </label>
+            <label class="radio-label" for="second-radio">
+               <div></div>
+            </label>
+            <label class="radio-label" for="third-radio">
+               <div></div>
+            </label>
+            <label class="radio-label" for="fourth-radio">
+               <div></div>
+            </label>
          </div>
       </div>
    </div>
